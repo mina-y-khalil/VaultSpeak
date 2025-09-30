@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Lisper</title>
+  <title>VaultSpeak</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
@@ -15,14 +15,14 @@
   <h1>What's your secret?</h1>
   <div class="card">
     <p>
-      <%= secret %>
+      <%= locals.secret %>
     </p>
   </div>
   <p>
     <button onclick="window.location.reload();">Another one!</button>
   </p>
   <p class="user">
-    <%= user %>
+    <%= locals.user %>
   </p>
 </body>
 
